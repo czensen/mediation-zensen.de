@@ -8,8 +8,8 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-paradigmshift/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  heading: 'Elisabeth Zensen',
+  subHeading: 'Mediatorin',
   // social
   socialLinks: [
     {
@@ -28,7 +28,7 @@ module.exports = {
       url: 'https://facebook.com/theanubhav',
     },
   ],
-  emailId: 'anubhav.srivastava00@gmail.com',
-  phone: '020182389123',
-  address: '11 Ashiyana, Mumbai, India',
+  emailId: 'elisabeth.zensen@googlemail.com',
+  phone: '02521/999999',
+  address: 'Krügerstraße 23, Beckum',
 };

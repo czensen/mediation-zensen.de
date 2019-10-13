@@ -95,17 +95,22 @@ const IndexPage = () => (
 
       <section id="first">
         <header>
-          <h2>Magna sed nullam nisl adipiscing</h2>
+          <h2>Was ist Mediation?</h2>
         </header>
         <div className="content">
           <p>
-            <strong>Lorem ipsum dolor</strong> sit amet consectetur adipiscing
-            elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad
-            litora torquent per conubia nostra, per inceptos himenaeos. Etiam
-            tristique libero eu nibh porttitor amet fermentum. Nullam venenatis
-            erat id vehicula ultrices sed ultricies condimentum. Magna sed etiam
-            consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et
-            dolor libero, feugiat magna tempus, sed et lorem adipiscing.
+            <strong>Mediation ist</strong> ein strukturiertes Verfahren zur Vermittlung 
+            und Regelung von Konflikten. Mediation versachlicht den Konflikt und bietet 
+            jedem den Raum, seine Wünsche und Interessen darzulegen. Ziel der Mediation 
+            ist eine gemeinsame und einvernehmliche Regelung der Konflikte durch die 
+            Konfliktparteien. Streitigkeiten haben ihre eigene Dynamik und viele 
+            Faktoren spielen eine Rolle. Aus diesem Grund ist die Lösung von Konflikten 
+            und deren Vermeidung nicht einfach. Bei diesem Prozess werden Sie von mir als 
+            neutrale Dritte unterstützt. Als Mediatorin biete ich Ihnen den Rahmen für 
+            Schutz, Respekt und Wertschätzung. Die im Mediationsverfahren getroffene 
+            Vereinbarung ist rechtsverbindlich, sofern das Gesetz nicht die notarielle
+             Beurkundung vorschreibt. In diesem Fall ist die Mediationsvereinbarung noch
+              von Ihrem Notar zu beurkunden. 
           </p>
           <span className="image main">
             <img src={pic2} alt="" />
@@ -115,13 +120,15 @@ const IndexPage = () => (
 
       <section>
         <header>
-          <h2>Feugiat consequat tempus ultrices</h2>
+          <h2>Meine Leistungen</h2>
         </header>
         <div className="content">
           <p>
-            <strong>Etiam tristique libero</strong> eu nibh porttitor amet
-            fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies
-            condimentum.
+            <strong>Eine Mediation verläuft</strong> in der Regel über 5–7 Sitzungen, 
+            wobei eine Sitzung 90 Minuten dauert. Ein halbstündiges Informationsgespräch
+             über das Mediationsverfahren ist kostenlos. Einige Rechtsschutzversicherungen 
+             übernehmen die Kosten eines Mediationsverfahrens. Bitte erkundigen Sie sich 
+             bei Ihrer Versicherung. 
           </p>
           <ul className="feature-icons">
             <li className="icon fa-laptop">Consequat tempus</li>
