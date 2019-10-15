@@ -60,27 +60,7 @@ const img_set_2 = [
     desc: 'Be one with the present',
   },
 ];
-const img_set_3 = [
-  {
-    src: require('../assets/images/gallery/fulls/08.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/08.jpg'),
-    title: 'Give away',
-    desc: 'Be one with the empathy',
-  },
-  {
-    src: require('../assets/images/gallery/fulls/09.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/09.jpg'),
-    title: 'Moment',
-    desc: 'Be one with the moment',
-  },
-  {
-    src: require('../assets/images/gallery/fulls/10.jpg'),
-    thumbnail: require('../assets/images/gallery/thumbs/10.jpg'),
-    title: 'Serenity',
-    desc: 'Be one with the purity',
-    full: true,
-  },
-];
+
 const IndexPage = () => (
   <Layout>
     <div id="wrapper">
@@ -120,7 +100,7 @@ const IndexPage = () => (
 
       <section>
         <header>
-          <h2>Meine Leistungen</h2>
+          <h2>Das biete ich an</h2>
         </header>
         <div className="content">
           <p>
@@ -131,105 +111,82 @@ const IndexPage = () => (
              bei Ihrer Versicherung. 
           </p>
           <ul className="feature-icons">
-            <li className="icon fa-laptop">Consequat tempus</li>
-            <li className="icon fa-bolt">Etiam adipiscing</li>
-            <li className="icon fa-signal">Libero nullam</li>
-            <li className="icon fa-gear">Blandit condimentum</li>
-            <li className="icon fa-map-marker">Lorem ipsum dolor</li>
-            <li className="icon fa-code">Nibh amet venenatis</li>
+            <li className="icon fa-link">Trennungsmediation</li>
+            <li className="icon fa-bolt">Scheidungsmediation</li>
+            <li className="icon fa-users">Familienmediation</li>
+            <li className="icon fa-balance-scale">Mediation zwischen Erben</li>
+            <li className="icon fa-map-signs">XYZ</li>
+
+
+
           </ul>
           <p>
             Vehicula ultrices sed ultricies condimentum. Magna sed etiam
             consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et
             dolor libero, feugiat magna tempus, sed et lorem adipiscing.
           </p>
+                        <div className="gallery">
+                <Gallery images={img_set_2} />
+              </div>
         </div>
       </section>
 
       <section>
         <header>
-          <h2>Ultrices erat magna sed condimentum</h2>
+          <h2>Über mich</h2>
         </header>
         <div className="content">
           <p>
-            <strong>Integer mollis egestas</strong> nam maximus erat id euismod
-            egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.
+            Streitende sollen wissen, dass nie einer ganz recht hat
+          </p>  
+          <p>
+            und der andere ganz unrecht. <strong>Kurt Tucholsky</strong>
           </p>
-
           <section>
+            <section>
             <header>
-              <h3>Erat aliquam</h3>
+              <h3>2014</h3>
               <p>
-                Vehicula ultrices dolor amet ultricies et condimentum. Magna sed
-                etiam consequat, et lorem adipiscing sed dolor sit amet,
-                consectetur amet do eiusmod tempor incididunt ipsum suspendisse
-                ultrices gravida.
+               Fortbildung Verfahrensbeistand BAG 
+              </p>
+              <h3>2011-2013</h3>
+              <p>
+              Ausbildung zur Mediatorin
+              </p>
+              <h3>2009-2011</h3>
+              <p>
+             Selbständige Berufsbetreuerin
+              </p>
+              <h3>2009-2010</h3>
+              <p>
+             Fortbildung zur Gruppenleiterin
+              </p>
+              <h3>2003 - heute </h3>
+              <p>
+             Telefonseelsorgin in Hamm
+              </p>
+              <h3>1998 - 2009</h3>
+              <p>
+             Berufsbetreuerin in Beckum
+              </p>
+              <h3>1984</h3>
+              <p>
+             Diplomstudiengang Soziale Arbeit an der KFH Aachen
               </p>
             </header>
+            
+          </section>
             <div className="content">
               <Gallery images={img_set_1} />
             </div>
           </section>
 
-          <section>
-            <header>
-              <h3>Nisl consequat</h3>
-              <p>
-                Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-                aliquam sed facilisis ante interdum congue. Integer mollis, nisl
-                amet convallis, porttitor magna ullamcorper, amet mauris. Ut
-                magna finibus nisi nec lacinia ipsum maximus.
-              </p>
-            </header>
-            <div className="content">
-              <div className="gallery">
-                <Gallery images={img_set_2} />
-              </div>
-            </div>
-          </section>
+         
 
-          <section>
-            <header>
-              <h3>Lorem gravida</h3>
-              <p>
-                Proin aliquam facilisis ante interdum. Sed nulla amet lorem
-                feugiat tempus aenean ornare velit lacus, ac varius sed enim
-                lorem ullamcorper dolore. ac varius enim lorem ullamcorper
-                dolore. Proin aliquam facilisis.
-              </p>
-            </header>
-            <div className="content">
-              <div className="gallery">
-                <Gallery images={img_set_3} />
-              </div>
-            </div>
-          </section>
+          
         </div>
       </section>
 
-      <section>
-        <header>
-          <h2>Duis sed adpiscing veroeros amet</h2>
-        </header>
-        <div className="content">
-          <p>
-            <strong>Elements</strong> This starter contains all elements for a
-            page. Check it out
-          </p>
-          <ul className="actions">
-            <li>
-              <Link to="/Elements" className="button primary large">
-                Goto Elements Page
-              </Link>
-            </li>
-            {/* <li>
-              <a href="/#" className="button large">
-                Learn More
-              </a>
-            </li> */}
-          </ul>
-        </div>
-      </section>
 
       <section>
         <ContactForm />

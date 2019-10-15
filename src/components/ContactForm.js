@@ -3,27 +3,26 @@ export default function ContactForm() {
   return (
     <>
       <header>
-        <h2>Get in touch</h2>
+        <h2>Kontakt aufnehmen</h2>
       </header>
       <div className="content">
         <p>
-          <strong>Auctor commodo</strong> interdum et malesuada fames ac ante
-          ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
-          mattis sagittis.
+          <strong>Ich freue, mich von Ihnen zu hören.</strong> Schreiben Sie mir unten eine Nachricht und 
+          ich melde mich so bald wie möglich zurück. Alternativ schreiben Sie mir eine E-Mail oder rufen Sie einach an.
         </p>
         <form>
           <div className="fields">
             <div className="field half">
-              <input type="text" name="name" id="name" placeholder="Name" />
+              <input type="text" name="name" id="name" placeholder="Ihr Name" />
             </div>
             <div className="field half">
-              <input type="email" name="email" id="email" placeholder="Email" />
+              <input type="email" name="email" id="email" placeholder="Ihre Email" />
             </div>
             <div className="field">
               <textarea
                 name="message"
                 id="message"
-                placeholder="Message"
+                placeholder="Ihre Nachricht an mich"
                 rows="7"
               />
             </div>
@@ -32,7 +31,7 @@ export default function ContactForm() {
             <li>
               <input
                 type="submit"
-                value="Send Message"
+                value="Nachricht senden"
                 className="button primary"
               />
             </li>
